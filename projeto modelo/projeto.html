@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> html </title>
+        <meta charset="utf-8">
+
+        <style type="text/css">
+        
+            .azul {
+                color:mediumblue;
+            }
+
+            #principal {
+                background: hotpink;
+            }
+
+        </style>
+        <!--ponto para definir classe e jogo da velha para definir id-->
+
+    </head>
+
+    <body id="principal">
+        <p><h1><strong>Sua vida está prestes a mudar!</strong></h1></p>
+        
+        <em class="azul">pra sempre...</em>
+
+        <br><br><br>
+
+            <img width="500" src="https://mauroplastina.com/wp-content/uploads/2019/09/misterio.jpg">
+
+        <p><strong>Meia noite vou te contar um segredo!</strong></p>
+
+        <hr>
+        <!--lista é mais fácil de fazer com css-->
+        
+        <h2>Lista de Compra</h2>
+        <!-- tipos de ul (lista não ordenada): disc, square e circle -->
+        <ul type="disc">
+           <a href="https://google.com.br/"><li>Notebook</li></a>
+           <li>Roteador</li>
+        </ul>
+
+        <h2>Perguntas Frequentes</h2>
+        <!-- tipos de ol (lista ordenada): 1, A, a, I, i -->
+            <ol type="I">
+                <li>Comida Preferida</li>
+                <li>Estação do Ano</li>
+                <a href="https://vasco.com.br/"><li>Time de Futebol</li></a>
+            </ol>
+            
+        <table border="2" width="50%">
+            <!--width porcentagem 100%-->
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Valor</th>
+                <th>Site</th>
+            </tr>
+
+            <tr>
+                <td>001</td>
+                <td>Joelheira</td>
+                <td>R$89,00</td>
+                <td><a href=https://www.google.com.br>Amazon</a></td>
+            </tr>
+
+            <tr>
+                <td>002</td>
+                <td>Perfume</td>
+                <td>R$400,00</td>
+                <td>Kassio Perfumes</td>
+            </tr>
+
+            <tr>
+                <td>003</td>
+                <td>Camisa Futebol</td>
+                <td>R$180,00</td>
+                <td>Shoppee</td>
+            </tr>
+
+            <tr>
+                <td>004</td>
+                <td>Nhacoma</td>
+                <td>R$20,00</td>
+                <td>Matinha</td>
+            </tr>
+
+            <tr>
+                <td>005</td>
+                <td>Neve</td>
+                <td>R$20,00</td>
+                <td>Matinha</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2" colspan="2"><center ">Comprado</center></td>
+                <td colspan="2"><center>Pix</center></td>
+                
+            </tr>
+
+            <tr>
+                <td colspan="2"><center>Boleto</center></td>
+            </tr>
+            <!--colspan coluna rowspan linha-->
+        </table>
+
+        <h2>Login</h2>
+
+        <form>
+            Login: <br>
+            <input type="text" name="login"><br>
+
+            Senha: <br>
+            <input type="password" name="senha"><br>
+
+            <input type="submit" value="Entrar"><br><br><br>
+        
+
+        <input type="radio" name="autorizacao" value="S"> Eu autorizo <br>
+        <input type="radio" name="autorizacao" value="N"> Eu não autorizo <br><br><br><br>
+        <!--se usado o mesmo name não permite duplicação de opção marcada-->
+        <!--usar o value pra diferenciação-->
+        <input type="checkbox" name="perguntasaleatorias"> Joaninha <br>
+        <input type="checkbox" name="perguntasaleatorias"> Golfinho <br>
+        <input type="checkbox" name="perguntasaleatorias"> Abacaxi <br>
+        <input type="checkbox" name="perguntasaleatorias"> Laranja <br><br><br><br>
+
+        <select name="estado">
+            <option value="ac">AC</option>
+            <option value="am">AM</option>
+            <option value="rj">RJ</option>
+            <option value="es">ES</option>
+            <option value="mg">MG</option>
+            <option value="rs">RS</option>
+            <!--importante name e value para identificação-->
+        </select> <br><br><br><br>
+        O que cê tá achando?<br>
+        <textarea name="textin"></textarea><br>
+
+        <input type="submit" value="Som de Peido">
+
+    </form>
+
+    </body>
+
+</html>
