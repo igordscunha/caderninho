@@ -1,0 +1,229 @@
+#container {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url(imagens/fundo.png) repeat-x;
+}
+
+/*######### B A N N E R ###########*/
+
+#banner {
+    width: 61.5%;
+    height: 210px;
+    background: url(imagens/logo.png) no-repeat, url(imagens/detalhe-topo.png) no-repeat right top;
+    display: block;
+    margin-left: 19%;
+}
+
+.menu-banner {
+    padding-top: 80px;
+    border-radius: 85px;
+    min-width: max-content;
+}
+
+.menu-banner ul {
+    list-style: none;
+    padding: 0px;
+    width: 681,5px;
+    background: #159cb0;
+    float: left;
+    border-radius: 85px;
+}
+
+.menu-banner ul li {
+    float: left;
+    border-radius: 85px;
+}
+
+.menu-banner ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2.2em;
+    text-decoration: none;
+    color: white;
+    /*background: url(imagens/divisor.png) repeat-y;*/
+}
+
+.menu-banner ul a:hover {
+    color: #085662;
+    background: #44cade;
+    border-radius: 85px;
+}
+
+.menu-banner .selecionado a 
+/*#sobre .menu-banner .selecionado a,
+#servicos .menu-banner .selecionado a,
+#noticias .menu-banner .selecionado a,
+#contato .menu-banner .selecionado a,
+#pesquisa .menu-banner .selecionado a*/ {
+    background-color: #44cade;
+    color: #085662;
+    border-radius: 85px;
+}
+
+/*######### P A I N E L E S Q U E R D O ###########*/
+
+#painelesquerdo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 12.5%;
+    padding-right: 35px;
+    width: 15%;
+    min-width: min-content;
+    float: left;
+}
+
+/*#painelesquerdo ul {
+    margin-bottom: 30%;
+}*/
+
+#painelesquerdo li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    color:darkcyan;
+    margin-left: -41px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    display: block;
+    border-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 16em;
+    margin-bottom: 8px;
+}
+
+input[type="submit"] {
+    background-color:#159cb0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 12px;
+    padding: 6px;
+    font-size: 1em;
+}
+
+/*######### C O N T E Ú D O ###########*/
+
+#conteudo {
+    width: 32%;
+    float: left;
+    min-width: min-content;
+}
+
+#conteudo img, #conteudo2 img {
+    width: 100%;
+}
+
+.imagem-mundo {
+    float: left;
+    width: 30%;
+}
+
+.texto-mundo {
+    float: left;
+    width: 65%;
+    margin-left: 12px;
+    margin-bottom: 18px;
+}
+
+.texto-mundo h3 {
+    margin-left: 18px;
+}
+
+/*######### C O N T E Ú D O 2 ###########*/
+
+#conteudo2 {
+    width: 23.5%;
+    min-width: min-content;
+    margin-right: 12.5%;
+    float: right;
+}
+
+#conteudo2 .imagem-mundo {
+    float: left;
+}
+
+#conteudo2 .texto-mundo {
+    float: left;
+    margin-left: 12px;
+    margin-bottom: 18px;
+}
+
+.imagem-nr {
+    float: left;
+    width: 44%;
+}
+
+.texto-nr {
+    float: left;
+    width: 50%;
+    margin-left: 15px;
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+
+/*######### SEGUNDA LINHA ###########*/
+
+.segundalinha {
+    margin-top: 50px;
+}
+
+
+/*######### L A Y O U T #############*/
+
+hr {
+    clear: both;
+    margin-top: 10px;
+}
+
+/*########### R O D A P E ################*/
+
+#rodape {
+    background: rgba(128, 128, 128, 0.551);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
+    clear: both;
+}
+
+h2 {
+    padding: 6px;
+    padding-left: 9px;
+    background-color: rgb(33, 34, 112);
+    color: white;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:#44cade;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* @media screen and (max-width: 480px) {
+    body {
+        
+    }
+} */
