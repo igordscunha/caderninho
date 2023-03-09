@@ -1,0 +1,112 @@
+a:link{
+	color:#000;
+	text-decoration:none;
+	border-bottom:none;
+}
+
+a:visited{
+	color:#000;
+	text-decoration:none;
+	border-bottom:none;
+}
+
+a:hover{
+	color:#000;
+	text-decoration:none;
+	border-bottom:none;
+}
+
+.dotsonjp {
+font-family: 'HelveticaNeueW01-95Blac', "Helvetica Neue CE 95 Black", "Helvetica Neue LT 95 Black", "Helvetica Neue 95 Black", "HelveticaNeue-Black", "Helvetica Neue Black", "Helvetica Neue CE 85 Heavy", "Helvetica Neue LT 85 Heavy", "Helvetica Neue 85 Heavy", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "Helvetica Neue CE 75 Bold", "Helvetica Neue LT 75 Bold", "Helvetica Neue 75 Bold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", 'HelveticaNeueW01-85Heav', Arial, "Lucida Grande", sans-serif;
+}
+
+.smtxt { 
+	font-size: 30px;
+	line-height: 26px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bolder;
+}
+
+
+h1{
+	color:#000000;
+	font-size: 40px;
+	letter-spacing: -1px;
+	text-align: left;
+	line-height: 1em;
+	font-weight: bold
+}
+
+
+#maincontent {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	z-index: 50;
+	width: 100%;
+	background: transparent;
+	}
+
+
+
+#mainspace {
+	background: transparent;
+	width: 1100px;
+	margin: 0 auto 50px auto;
+	border: 0;
+	padding: 0;
+	text-align: left;
+}
+
+
+
+#innercontent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: transparent;
+    z-index: -1;
+	}
+
+
+#innerspace {
+	background: transparent;
+	width: 1200px;
+	margin: 50px auto 50px auto;
+	border: 0;
+	padding: 0;
+	text-align: left;
+}
+
+
+#inner {
+	background: transparent;
+	width: 1000px;
+	margin: 0 100px 0 100px;
+	border: 0;
+	padding: 0;
+	text-align: left;
+    font-weight: bolder;
+    font-size: 42px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* left right */
+
+
+#clearer {
+	padding: 50px 0 0 0;
+	clear: both;
+}
+
+@media screen and (max-width: 500px){
+	#inner{
+		width: 280px;
+		font-size: 25px;
+
+		.smtxt{
+			font-size: 23px;
+		}
+	}
+}

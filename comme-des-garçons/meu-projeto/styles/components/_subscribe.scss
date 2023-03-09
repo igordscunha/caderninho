@@ -1,0 +1,169 @@
+.contform{
+    //display: block;
+    position: relative;
+    left: 20%;
+    top: 60px;
+    width: 768px;
+    font-weight: bolder;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -1px;
+    line-height: 1em;
+    text-align: left;
+
+    .sbsc{
+        font-size: 42px;
+    }
+}
+
+.form{
+
+    //display: block;
+    position: relative;
+    top: 60px;
+    left: 20%;
+    width: 50%;
+    width: 768px;
+
+    .nm {
+        width: 49.5%;
+        float: left;
+        input[type="text"] {
+            width: 90%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            color: black;
+        }
+    }
+
+    .lst {
+        width: 49.5%;
+        float: right;
+        input[type="text"] {
+            width: 98%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            color: black;
+        }
+    }
+
+    .eml {
+        position: relative;
+        width: 100%;
+        clear: both;
+        input[type="email"] {
+            width: 98.8%;
+            //min-width: 650px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            color: black;
+        }
+
+    }
+
+    label{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    input {
+        border: 4px solid black;
+        background: transparent;
+    }
+
+    input[type="submit"]{
+        border: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+}
+
+.cntnrbt{
+    padding-top: 12px;
+}
+
+.sbmt{
+    float: right;
+
+    #butaumsb{
+        font-size: 18px;
+    }
+}
+
+.pp{
+    float: left;
+
+    #butaumpp{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .contform{
+        width: 285px;
+
+        .sbsc{
+            font-size: 30px;
+        }
+
+        .txtform{
+            font-size: 16px;
+        }
+    }
+
+    .form{
+        width: 285px;
+
+        .nm{
+            //font-size: 10px;
+            input[type="text"] {
+                width: 91.5%;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: 700;
+                font-size: 15px;
+                color: black;
+            }
+        }
+
+        .lst{
+            input[type="text"] {
+                width: 91.5%;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: 700;
+                font-size: 15px;
+                color: black;
+            }
+        }
+
+        .eml{
+            input[type="email"] {
+                width: 275px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: 700;
+                font-size: 15px;
+                color: black;
+            }
+        }
+
+        label{
+            font-size: 15px;
+        }
+    }
+
+    .sbmt{
+        img{
+            width: 13px;
+        }
+    }
+
+    .pp{
+        img{
+            width: 13px;
+        }
+    }
+}

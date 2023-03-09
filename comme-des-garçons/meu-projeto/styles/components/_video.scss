@@ -1,0 +1,41 @@
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    display: inline-flex;
+    overflow: visible;
+    position: relative;
+}
+
+#menuvideo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+    width: 150px;
+    height: 250px;
+    opacity: 0.6;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    //position: absolute;
+    z-index: 1;
+    background: transparent;
+    position: absolute;
+
+    a {
+        color: white;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #menuvideo{
+        width: 80px;
+        height: 300px;
+        font-size: 38px;
+        justify-content: space-evenly;
+    }
+}

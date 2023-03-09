@@ -1,0 +1,65 @@
+@import './variaveis';
+
+*{
+    //box-sizing: border-box;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#bg-index {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../../comme-des-garçons/meu-projeto/imagens/00.jpg);
+    image-rendering: optimizeSpeed;
+    background-color: $vermelho;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    //transition: transform 0.2s cubic-bezier(.01,.54,.67,1.04);
+}
+
+// @keyframes bg-index{
+//     0% {
+//         transform: translateX(100%);
+//     }
+//     100%{
+//         transform: translateX(0%);
+//     }
+// }
+
+.drag{
+    transform: translateX(-90%);
+    background-image: url(../../../../comme-des-garçons/meu-projeto/imagens/01.jpg);
+    transition-duration: 0.5s;
+}
+
+#bg-2023aw {
+    background-image: url(../../../../comme-des-garçons/meu-projeto/imagens/vidbg.png);
+    background-color: $branco;
+    background-repeat: repeat;
+    background-position: top left;
+    background-size: contain;
+    cursor: default;
+}
+
+.clear {
+    clear: both;
+}
+
+@media screen and (max-width: 600px){
+    #bg-index{
+        background-position: top right;
+    }
+}
